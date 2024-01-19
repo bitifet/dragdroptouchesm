@@ -1,0 +1,39 @@
+{
+  "name": "dragdroptouchesm",
+  "version": "0.0.1",
+  "description": "ESM Polyfill that enables HTML5 drag drop support on mobile (touch) devices",
+  "main": "DragDropTouch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitifet/dragdroptouchesm.git"
+  },
+  "keywords": [
+    "drag",
+    "drop",
+    "touch",
+    "UX",
+    "Web"
+  ],
+  "author": "Bernardo Castilho",
+  "contributors": [
+  {
+      "name": "Bernardo Castilho",
+      "email": "bernardo-castilho@hotmail.com"
+  },
+  {
+      "name": "YoungSik Yun",
+      "email": ""
+  },
+  {
+      "name": "Joan Miquel Torres",
+      "email": "joanmi@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitifet/dragdroptouchesm/issues"
+  },
+  "homepage": "https://github.com/bitifet/dragdroptouchesm#readme"
+}

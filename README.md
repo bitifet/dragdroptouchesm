@@ -2,6 +2,30 @@
 
 Polyfill that enables HTML5 drag drop support on mobile (touch) devices.
 
+> **Fork Notice:**
+> 
+> This is a fork of a [fork](https://github.com/ysyun/dragdroptouch) of
+> [DragDropTouch.js](https://github.com/Bernardo-Castilho/dragdroptouch)
+> from [Bernardo Castilho] (https://github.com/Bernardo-Castilho) **(Thanks
+> Bernardo!!)**
+>
+> I did it in order to fit the requirements to be included in
+> [SmarkForm](https://smarkform.bitifet.net) (a library of mine
+> -[GitHub](https://github.com/bitifet/SmarkForm)-)
+> 
+> **GOALS:**
+> 
+>   * **No side effects** To use it in a library we cannot allow side effects
+>     outside of intentionally enhanced HTML nodes.
+>     - To acomplish this I'll add an optional *target* parameter.
+>
+>   * **Interpose a gesture requirement before drag start** so that scroll will
+>     work normally unless the user intentionally triggers the dragging
+>     thorough a little "go and go-back" movement.
+> 
+>   * **Fix click event doubling issue** (now I see already solved by ysyun ✅).
+
+
 The HTML5 specification includes support for drag and drop operations. 
 Unfortunately, most mobile browsers do not implement it, so applications
 that rely on HTML5 drag and drop have reduced functionality when running
