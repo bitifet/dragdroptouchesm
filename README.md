@@ -6,7 +6,7 @@ Polyfill that enables HTML5 drag drop support on mobile (touch) devices.
 > 
 > This is a fork of a [fork](https://github.com/ysyun/dragdroptouch) of
 > [DragDropTouch.js](https://github.com/Bernardo-Castilho/dragdroptouch)
-> from [Bernardo Castilho] (https://github.com/Bernardo-Castilho) **(Thanks
+> from [Bernardo Castilho](https://github.com/Bernardo-Castilho) **(Thanks
 > Bernardo!!)**
 >
 > I did it in order to fit the requirements to be included in
